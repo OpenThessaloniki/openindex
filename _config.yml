@@ -14,15 +14,15 @@ pygments: auto
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : "Thessaloniki Community, Events & Meetups"
-tagline: "The insiders SKG scoop"
+title : "Greek Open Data Directory"
+tagline: ""
 author :
-  name : "skgtech contributors"
+  name : "skgtech x openthessaloniki contributors"
   email : "skg-developers@googlegroups.com"
-  github : "skgtech"
+  github : "OpenThessaloniki"
   # twitter : username
   # feedburner : feedname
-githubrepo: "https://github.com/skgtech/skgtech.github.io"
+githubrepo: "https://github.com/OpenThessaloniki/resources"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -98,7 +98,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-41787746-3'
+        tracking_id : ''
         domain: 'skgtech.io'
     # getclicky :
     #   site_id :
