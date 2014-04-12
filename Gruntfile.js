@@ -43,22 +43,22 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'assets/themes/twitter/css/styles.css': ['temp/styles-expanded.css']
+          'assets/styles.css': ['temp/styles-expanded.css']
         }
       }
     },
     browserify: {
       dist: {
-	files: {
-	  'temp/app.js': ['_frontapp/app.js'],
-	},
+        files: {
+          'temp/app.js': ['_frontapp/app.js'],
+        },
       }
     },
     uglify: {
       dist: {
-	files: {
-	  'assets/app.js': ['temp/app.js']
-	}
+        files: {
+          'assets/app.js': ['temp/app.js']
+        }
       }
     },
     watch: {
@@ -67,8 +67,8 @@ module.exports = function(grunt) {
         tasks: ['css'],
       },
       app: {
-	files: ['_frontapp/**/*.js'],
-	tasks: ['build'],
+        files: ['_frontapp/**/*.js'],
+        tasks: ['build'],
       }
     },
 
@@ -93,9 +93,9 @@ module.exports = function(grunt) {
           args: ['watch:styles']
         }, {
           grunt: true,
-	  args: ['watch:app']
-	}, {
-	  grunt: true,
+          args: ['watch:app']
+        }, {
+          grunt: true,
           args: ['open:server']
 
         }]
