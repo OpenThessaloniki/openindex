@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "thessaloniki",
+  "name": "opendata-gr",
   "version": "0.0.1",
-  "description": "Thessaloniki tech community",
+  "description": "Greek Open Data Resources",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.4",
@@ -17,24 +17,23 @@
     "grunt-parallel": "^0.3.1",
     "browserify": "^3.39.0",
     "grunt-browserify": "^2.0.3",
-    "grunt-contrib-uglify": "^0.4.0",
-    "calendarth": "0.0.6"
+    "grunt-contrib-uglify": "^0.4.0"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/thessaloniki/meetups.git"
+    "url": "git://github.com/OpenThessaloniki/resources.git"
   },
   "bugs": {
-    "url": "https://github.com/thessaloniki/meetups/issues"
+    "url": "https://github.com/OpenThessaloniki/resources/issues"
   },
   "keywords": [
     "thessaloniki",
     "skg"
   ],
   "author": {
-    "name": "Thessaloniki",
-    "url": "http://github.com/thessaloniki"
+    "name": "skgtech x OpenThessaloniki",
+    "url": "http://github.com/OpenThessaloniki"
   },
   "contributors": [
     {
