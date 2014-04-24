@@ -32,7 +32,7 @@
       name: "thermi.gov.gr"
 - name: "General"
   links:
-    - href: "http://ckan.okfn.gr/dataset/greek-wordnet"
+    - href: "http://okfn.gr"
       name: "okfn.gr"
     - href: "http://www.apergia.gr/ "
       name: "apergia.gr"
