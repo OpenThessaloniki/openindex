@@ -10,3 +10,17 @@ layout: frontpage
     </div>
   </div>
 </div>
+<div class="row">
+  {% for resource in site.data.openindex %}
+    {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
+    <div class="col-lg-4">
+      {% include widgets/resources.html resource=resource %}
+    </div>
+    {% if '3' == rowIter %}
+    </div>
+    <div class="row">
+    {% endif %}
+  {% endfor %}
+</div>
+
+

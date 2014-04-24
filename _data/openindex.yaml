@@ -1,0 +1,47 @@
+- name: "Geolocation"
+  links:
+    - href: "http://geodata.gov.gr"
+      name: "geodata.gov.gr"
+    - href: "http://www.opengeodata.gr/?cat=7"
+      name: "opengeodata.gr"
+- name: "Geolocation"
+  links:
+    - href: "http://geodata.gov.gr"
+      name: "geodata.gov.gr"
+- name: "Government"
+  links:
+    - href: "http://yperdiavgeia.gr/"
+      name: "yperdiavgeia.gr"
+    - href: "http://diavgeia.gov.gr/"
+      name: "diavgeia.gov.gr"
+    - href: "http://data.gov.gr/"
+      name: "data.gov.gr"
+- name: "Financial"
+  links:
+    - href: "http://www.publicspending.net/ "
+      name: "publicspending.net"
+    - href: "http://www.fuelprices.gr/CheckPrices "
+      name: "fuelprices.gr"
+    - href: "http://services.e-prices.gr/"
+      name: "e-prices.gr"
+- name: "Traffic"
+  links:
+    - href: "http://www.mobithess.gr/ "
+      name: "mobithess.gr"
+    - href: "https://smartcity.thermi.gov.gr/improve/el/sensethecity"
+      name: "thermi.gov.gr"
+- name: "General"
+  links:
+    - href: "http://ckan.okfn.gr/dataset/greek-wordnet"
+      name: "okfn.gr"
+    - href: "http://www.apergia.gr/ "
+      name: "apergia.gr"
+- name: "Libraries"
+  links:
+    - href: "http://openarchives.gr/"
+      name: "openarchives.gr"
+    - href: "http://phdtheses.ekt.gr/eadd/opendata"
+      name: "phdtheses.ekt.gr"
+    - href: "http://helios-eie.ekt.gr/EIE/"
+      name: "helios-eie.ekt.gr"
+

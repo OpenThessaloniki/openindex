@@ -7,4 +7,19 @@
 </div>
 <div class="container">
 {{ content }}
+  <footer class="footer-actual">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pull-left">
+          <p>&copy; {{ site.time | date: '%Y' }} <a target="_blank" href="https://github.com/skgtech/skgtech.github.io/graphs/contributors">SKGTech</a> x <a target="_blank" href="http://www.openthessaloniki.org/">OpenThessaloniki</a>, source under the <a target="_blank" href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+          <p class="license">
+            The content property of their respective owners, the rest <a target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0</a>.
+          </p>
+        </div>
+        <div class="col-lg-4 pull-right">
+          <p> <a href="{{ site.githubrepo }}">View the source of this site and contribute</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
