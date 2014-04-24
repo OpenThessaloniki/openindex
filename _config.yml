@@ -98,8 +98,8 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : ''
-        domain: 'skgtech.io'
+        tracking_id : 'UA-41787746-4'
+        domain: 'openindex.gr'
     # getclicky :
     #   site_id :
     # mixpanel :
