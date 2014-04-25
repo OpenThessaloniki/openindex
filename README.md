@@ -4,7 +4,7 @@ An Index for Open Data in Greece
 
 ## Contributors and Maintainers
 
-If you know your way with Github, editing and updating the communities and the pinned agenda items is very simple, just [edit the `_data/communities.yaml` or `_data/pinnedAgenda.yaml` files](https://github.com/skgtech/skgtech.github.io/blob/master/_data/) and send a Pull Request.
+If you know your way with Github, editing and updating the index is very simple, just [edit the `_data/openindex.yaml` file](https://github.com/OpenThessaloniki/openthessaloniki.github.io/blob/master/_data/) and send a Pull Request.
 
 ## Web Developers
 
