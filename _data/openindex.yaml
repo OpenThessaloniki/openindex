@@ -4,10 +4,6 @@
       name: "geodata.gov.gr"
     - href: "http://www.opengeodata.gr/?cat=7"
       name: "opengeodata.gr"
-- name: "Geolocation"
-  links:
-    - href: "http://geodata.gov.gr"
-      name: "geodata.gov.gr"
 - name: "Government"
   links:
     - href: "http://yperdiavgeia.gr/"
