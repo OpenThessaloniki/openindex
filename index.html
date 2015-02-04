@@ -12,15 +12,15 @@ layout: frontpage
 </div>
 <div class="row">
   {% for resource in site.data.openindex %}
+  {% for src in resource.source  %}
     {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
-    <div class="col-lg-4">
-      {% include widgets/resources.html resource=resource %}
-    </div>
+      <div class="col-lg-4">
+          {% include widgets/resources.html src=src %}
+        </div>
     {% if '3' == rowIter %}
     </div>
     <div class="row">
     {% endif %}
   {% endfor %}
+  {% endfor %}
 </div>
-
-

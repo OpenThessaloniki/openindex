@@ -1,6 +1,14 @@
-<div class="list-group">
-  <a class="list-group-item active">{{ include.resource.name }}</a>
-  {% for link in include.resource.links %}
-    <a href="{{ link.href }}" class="list-group-item" target="_blank">{{ link.name }}</a>
-  {% endfor %}
+<div class="panel panel-info">
+	<div class="panel-heading"><h4>{{ include.src.source_name }}</h4><div>
+      <div class="list-group">
+      	<font color="#878787"><a class="list-group-item"> Description:<br>{{src.description}}</a></font>
+      </br>
+        <a class="list-group-item active">Related links</a>
+		{% for link in src.links  %}
+			<a href="{{ link.href }}" class="list-group-item" target="_blank">{{ link.name }}
+            <font color="#878787">{{link.about}}</font>
+			</a>
+		
+	</div>
+{% endfor %}
 </div>

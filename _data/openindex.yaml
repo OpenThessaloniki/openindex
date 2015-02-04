@@ -1,43 +1,15 @@
-- name: "Geolocation"
-  links:
-    - href: "http://geodata.gov.gr"
-      name: "geodata.gov.gr"
-    - href: "http://www.opengeodata.gr/?cat=7"
-      name: "opengeodata.gr"
-- name: "Government"
-  links:
-    - href: "http://yperdiavgeia.gr/"
-      name: "yperdiavgeia.gr"
-    - href: "http://diavgeia.gov.gr/"
-      name: "diavgeia.gov.gr"
-    - href: "http://data.gov.gr/"
-      name: "data.gov.gr"
-- name: "Financial"
-  links:
-    - href: "http://www.publicspending.net/ "
-      name: "publicspending.net"
-    - href: "http://www.fuelprices.gr/CheckPrices "
-      name: "fuelprices.gr"
-    - href: "http://services.e-prices.gr/"
-      name: "e-prices.gr"
-- name: "Traffic"
-  links:
-    - href: "http://www.mobithess.gr/ "
-      name: "mobithess.gr"
-    - href: "https://smartcity.thermi.gov.gr/improve/el/sensethecity"
-      name: "thermi.gov.gr"
-- name: "General"
-  links:
-    - href: "http://okfn.gr"
-      name: "okfn.gr"
-    - href: "http://www.apergia.gr/ "
-      name: "apergia.gr"
-- name: "Libraries"
-  links:
-    - href: "http://openarchives.gr/"
-      name: "openarchives.gr"
-    - href: "http://phdtheses.ekt.gr/eadd/opendata"
-      name: "phdtheses.ekt.gr"
-    - href: "http://helios-eie.ekt.gr/EIE/"
-      name: "helios-eie.ekt.gr"
+- category: "Geodata"
+  source:
+    - source_name: "Geodata.gov.gr"
+      description: "geodata.gov.gr was designed and developed with the aim to provide a focal point for the aggregation, search, provision and portrayal of open public geospatial information. It's one of the Greek Government’s open government initiatives in the framework of the Open Government Partnership."
+      links:
+      - href: "http://geodata.gov.gr"
+        name: "geodata.gov.gr"
+        about: Main page
+      - href: "http://geodata.gov.gr/maps/"
+        name: "Maps"
+        about: "with visualized data on the map (currently unavailable)"
+      - href: "http://labs.geodata.gov.gr/"
+        name: "Labs"
+        about: "Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. "
 
