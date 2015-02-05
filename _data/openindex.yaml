@@ -5,7 +5,7 @@
       links:
       - href: "http://geodata.gov.gr"
         name: "geodata.gov.gr"
-        about: Main page
+        about: "Main page"
       - href: "http://geodata.gov.gr/maps/"
         name: "Maps"
         about: "with visualized data on the map (currently unavailable)"
@@ -17,8 +17,8 @@
       description: "Contains intresting datasets, but some of them are depricated"
       links:
       - href: "http://www.opengeodata.gr"
-        name: "Main site"
-        about: 
+        name: "www.opengeodata.gr"
+        about: "Main page"
       - href: "http://www.opengeodata.gr/?p=387"
         name: "Όρια Διαμερισμάτων και γειτονιών Δήμου Αθήνας"
         about: 
