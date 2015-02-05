@@ -1,14 +1,14 @@
 <div class="panel panel-info">
-	<div class="panel-heading"><h4>{{ include.src.source_name }}</h4><div>
-      <div class="list-group">
-      	<font color="#878787"><a class="list-group-item"> Description:<br>{{src.description}}</a></font>
+	<div class="panel-heading"><h4>{{ include.source.source_name }}</h4><div>
+    <div class="list-group">
+    	<font color="#878787"><a class="list-group-item"> Description:<br>{{source.description}}</a></font>
       </br>
-        <a class="list-group-item active">Related links</a>
-		{% for link in src.links  %}
-			<a href="{{ link.href }}" class="list-group-item" target="_blank">{{ link.name }}
-            <font color="#878787">{{link.about}}</font>
-			</a>
-		
-	</div>
-{% endfor %}
+      <a class="list-group-item active">Related links</a>
+      {% for link in source.links  %}
+	      <a href="{{ link.href }}" class="list-group-item" target="_blank">{{ link.name }}
+          <font color="#878787">{{link.about}}</font>
+	      </a>
+      {% endfor %}
+	  </div>
+  </div>
 </div>

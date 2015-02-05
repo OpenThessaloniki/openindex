@@ -11,16 +11,16 @@ layout: frontpage
   </div>
 </div>
 <div class="row">
-  {% for resource in site.data.openindex %}
-  {% for src in resource.source  %}
-    {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
-      <div class="col-lg-4">
-          {% include widgets/resources.html src=src %}
+  {% for category in site.data.openindex %}
+    {% for source in category.source  %}
+      {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
+        <div class="col-lg-4">
+          {% include widgets/resources.html source=source %}
         </div>
-    {% if '3' == rowIter %}
-    </div>
-    <div class="row">
-    {% endif %}
-  {% endfor %}
+        {% if '3' == rowIter %}
+          </div>
+          <div class="row">
+        {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
