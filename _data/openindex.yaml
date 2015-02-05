@@ -13,3 +13,18 @@
         name: "Labs"
         about: "Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. "
 
+    - source_name: "open(geo)data"
+      description: "Contains intresting datasets, but some of them are depricated"
+      links:
+      - href: "http://www.opengeodata.gr"
+        name: "Main site"
+        about: 
+      - href: "http://www.opengeodata.gr/?p=387"
+        name: "Όρια Διαμερισμάτων και γειτονιών Δήμου Αθήνας"
+        about: 
+      - href: "http://www.opengeodata.gr/?p=380"
+        name: "Λεξικό Ελληνικών επωνύμων & ονομάτων"
+        about: 
+      - href: "http://www.opengeodata.gr/?p=363"
+        name: "Τα αποτελέσματα των εκλογών του Ιουνίου 2012"
+        about: 
