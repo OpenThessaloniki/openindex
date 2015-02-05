@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'assets/styles.css': ['temp/styles-expanded.css']
+          'css/styles.css': ['temp/styles-expanded.css']
         }
       }
     },
