@@ -118,8 +118,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', 'browserify and uglify', [
-    'browserify:dist',
-    'uglify:dist',
+    'css',
   ]);
 
   grunt.registerTask('css', 'Compile and minify less styles', [
