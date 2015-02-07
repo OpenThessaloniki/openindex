@@ -26,7 +26,7 @@ First [fork this repository](https://github.com/openthessaloniki/openthessalonik
 
 ```shell
 git clone git@github.com:YOUR_USERNAME/openthessaloniki.github.io.git
-cd meetups
+cd openthessaloniki.github.io
 ```
 
 After cloning is finished you need to install the development dependencies:
