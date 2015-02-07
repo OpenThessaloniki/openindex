@@ -12,6 +12,7 @@ layout: frontpage
 </div>
 <div class="row">
   {% for category in site.data.openindex %}
+   <h2>Category: {{ category.category }}</h2>
     {% for source in category.source  %}
       {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
         <div class="col-lg-4">
