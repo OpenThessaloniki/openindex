@@ -1,3 +1,65 @@
+- category: "OpenGov"
+  source:
+    - source_name: "Diavgeia (The Transparency Program initiative / Cl@rity)"
+      description: "All government institutions are obliged to upload their acts and decisions on the Internet with special attention to issues of national security and sensitive personal data. Administrative acts and decisions are not valid unless published online. "
+      links:
+      - href: "https://diavgeia.gov.gr"
+        name: "Diavgeia"
+        about: "Main site"
+      - href: "https://diavgeia.gov.gr/search?advanced"
+        name: "Advanced Seach"
+        about: "in diavgeia by several topics or by using Opendata API"
+      - href: "https://diavgeia.gov.gr/api/help"
+        name: "Opendata API help page"
+        about: "where is expalined how to use Diavgeia's API in order to get the decision's information"
+      - href: "https://diavgeia.gov.gr/changelog"
+        name: "Opendata API history track"
+        about: 
+      - href: "https://diavgeia.gov.gr/blog"
+        name: "Diavgeia's blog"
+        about: 
+      - href: "https://diavgeia.gov.gr/blog/?cat=2"
+        name: "Opendata API blogposts"
+        about: 
+      - href: "https://www.youtube.com/channel/UCyAPFBuCS-YMwBb7IRnxUUg"
+        name: "Youtube channel"
+        about: 
+      - href: "https://twitter.com/diavgeia"
+        name: "Twitter account"
+        about: 
+      - href: "https://el-gr.facebook.com/diavgeiagr"
+        name: "Facebook account"
+        about: 
+    - source_name: "Yperdiavgeia (Ultracl@rity)"
+      description: "Search engine for greek open public data. Search is possible for all the documents published through Diavgeia, all the Greek Legislation published through the National Printing Service, all tenders and procurements published through the Central Electronic Registry for Public Contracts (CERPC) and all the Greek Parliament proceedings published through the parliament"
+      links:
+      - href: "https://yperdiavgeia.gr"
+        name: "Yperdiavgeia"
+        about: "Main site"
+      - href: "http://data.gov.gr/blog"
+        name: "Blog"
+        about: 
+      - href: "http://data.gov.gr/datasetrequests/"
+        name: "Data requests"
+        about:       
+      - href: "http://data.gov.gr/dataset-search/"
+        name: "Dataset search"
+        about: 
+    - source_name: "Relevant sites"
+      description: "Various sites about OpenGovernment"
+      links:
+      - href: "http://www.opengovpartnership.org/country/greece"
+        name: "Greek page at Open Government Partnership"
+        about:
+      - href: "http://ogp.opengov.gr/"
+        name: "ogp.opengov.gr"
+        about: "is a list of websites of governmental institutions related to open data or open government"
+      - href: "https://twitter.com/hellenicpolice"
+        name: "twitter account of the greek police"
+        about:
+      - href: "http://www.opengov.gr/"
+        name: "opengov.gr"
+        about:
 - category: "Geodata"
   source:
     - source_name: "Geodata.gov.gr"
@@ -5,7 +67,7 @@
       links:
       - href: "http://geodata.gov.gr"
         name: "geodata.gov.gr"
-        about: "Main page"
+        about: "Main site"
       - href: "http://geodata.gov.gr/maps/"
         name: "Maps"
         about: "with visualized data on the map (currently unavailable)"
@@ -17,8 +79,7 @@
       description: "Contains intresting datasets, but some of them are depricated"
       links:
       - href: "http://www.opengeodata.gr"
-        name: "www.opengeodata.gr"
-        about: "Main page"
+        name: "Main site"
       - href: "http://www.opengeodata.gr/?p=387"
         name: "Όρια Διαμερισμάτων και γειτονιών Δήμου Αθήνας"
         about: 
@@ -28,3 +89,4 @@
       - href: "http://www.opengeodata.gr/?p=363"
         name: "Τα αποτελέσματα των εκλογών του Ιουνίου 2012"
         about: 
+
