@@ -1,3 +1,12 @@
+- category: "Data Hubs"
+  source:
+    - source_name: "Open Data Hub"
+      description: "contains various greek data"
+      links:
+      - href: "http://ckan.okfn.gr/"
+        name: "Greek Open Data Hub"
+        about: "Main site"
+
 - category: "OpenGov"
   source:
     - source_name: "Diavgeia (The Transparency Program initiative / Cl@rity)"
@@ -60,6 +69,7 @@
       - href: "http://www.opengov.gr/"
         name: "opengov.gr"
         about:
+
 - category: "Geodata"
   source:
     - source_name: "Geodata.gov.gr"
@@ -74,7 +84,6 @@
       - href: "http://labs.geodata.gov.gr/"
         name: "Labs"
         about: "Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. "
-
     - source_name: "open(geo)data"
       description: "Contains intresting datasets, but some of them are depricated"
       links:
@@ -90,3 +99,54 @@
         name: "Τα αποτελέσματα των εκλογών του Ιουνίου 2012"
         about: 
 
+- category: "Financial Data"
+  source:
+    - source_name: "Publicspending.net"
+      description: "Where public money goes worldwide. It is an effort to demonstrate the usefulness of economic Linked Open Data in promoting transparency and innovation."
+      links:
+      - href: "http://www.publicspending.net/"
+        name: "Publicspending.net"
+        about: "Main site"
+      - href: "http://datahub.io/en/dataset/publicspending-net"
+        name: "datahub.io"
+        about: "Download and reuse the full dataset"
+      - href: "http://www.publicspending.net/endpoint"
+        name: "Sparql endpoint"
+        about: "Find some example queries and execute yours"
+
+- category: "Municipalities"
+  source:
+    - source_name: "Thessaloniki"
+      description: "" 
+      links:
+      - href: "http://opendata.thessaloniki.gr/"
+        name: "CKAN Portal"
+        about: "contains various data"
+  source:
+    - source_name: "Gortinia"
+      description: ""
+      links:
+      - href: "http://gis.opendatagortynia.gr/"
+        name: "Gorinia"
+        about: "GIS Portal"
+      - href: "http://opendatagortynia.gr/"
+        name: "Open Data Gortynia"
+        about: "CKAN Portal, containing the open data of the Geoportal"
+      - href: "http://www.publicspending.net/endpoint"
+        name: "Sparql endpoint"
+        about: "Find some example queries and execute yours"
+
+- category: "Art and Culture"
+  source:
+    - source_name: "Europeana"
+      description: "Europe's culture, collected for you. Explore more than 30 million items from a range of Europe’s leading galleries, libraries, archives and museums."
+      links:
+      - href: "http://www.europeana.eu"
+        name: "Europeana"
+        about: "Main site"
+      - href: "http://www.europeana.eu/portal/search.html?query=where%3Agreece"
+        name: "Greek Collection"
+        about: "consisting of image,text,video and sound files"
+      - href: "http://labs.europeana.eu/api/"
+        name: "APIs"
+        about: "There are two APIs for use. The first is a REST-API that is suited for dynamic search and retrieval of the data. The second API is more experimental and supports download of complete datasets and advanced semantic search and retrieval of the data via the SPARQL query language."
