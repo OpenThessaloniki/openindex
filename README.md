@@ -54,7 +54,7 @@ The default Grunt task will:
 * Edit styles from the `assets/css/main.css` file.
 * Edit the layout from the `_includes/themes/twitter/` folder.
 * The project's homepage is the file `index.html` in the root folder.
-* Edit the markup for the *Meetups* and *Agenda* items in the `_includes/widgets/` folder.
+* Edit the markup for the *Categories* items in the `_includes/widgets/` folder.
 * All the site's data are in the `_data/` folder.
 
 ## Colophon
