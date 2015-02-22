@@ -5,6 +5,7 @@ An Index for Open Data in Greece
 ## Contributors and Maintainers
 
 If you know your way with Github, editing and updating the index is very simple, just [edit the `_data/openindex.yaml` file](https://github.com/OpenThessaloniki/openthessaloniki.github.io/blob/master/_data/) and send a Pull Request.
+If you are a nooby check our [wiki page](https://github.com/OpenThessaloniki/openthessaloniki.github.io/wiki) to get some extra help.
 
 ## Web Developers
 
