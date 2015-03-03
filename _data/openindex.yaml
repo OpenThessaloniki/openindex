@@ -122,7 +122,6 @@
       - href: "http://opendata.thessaloniki.gr/"
         name: "CKAN Portal"
         about: "contains various data"
-  source:
     - source_name: "Gortinia"
       description: "Open Datasets from Gorinia"
       links:

@@ -6,6 +6,8 @@ An Index for Open Data in Greece
 
 If you know your way with Github, editing and updating the index is very simple, just [edit the `_data/openindex.yaml` file](https://github.com/OpenThessaloniki/openthessaloniki.github.io/blob/master/_data/) and send a Pull Request.
 
+If you are a nooby check our [wiki page](https://github.com/OpenThessaloniki/openthessaloniki.github.io/wiki/Wiki-page), to get some extra help.
+
 ## Web Developers
 
 If you want to contribute to the development of this site you first need to setup your environment based on the project's requirements.
@@ -54,7 +56,7 @@ The default Grunt task will:
 * Edit styles from the `assets/css/main.css` file.
 * Edit the layout from the `_includes/themes/twitter/` folder.
 * The project's homepage is the file `index.html` in the root folder.
-* Edit the markup for the *Meetups* and *Agenda* items in the `_includes/widgets/` folder.
+* Edit the markup for the *Categories* items in the `_includes/widgets/` folder.
 * All the site's data are in the `_data/` folder.
 
 ## Colophon
