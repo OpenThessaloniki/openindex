@@ -117,24 +117,22 @@
 - category: "Municipalities"
   source:
     - source_name: "Thessaloniki"
-      description: "" 
+      description: "Open Datasets from Thessaloniki" 
       links:
       - href: "http://opendata.thessaloniki.gr/"
         name: "CKAN Portal"
         about: "contains various data"
   source:
     - source_name: "Gortinia"
-      description: ""
+      description: "Open Datasets from Gorinia"
       links:
-      - href: "http://gis.opendatagortynia.gr/"
-        name: "Gorinia"
-        about: "GIS Portal"
       - href: "http://opendatagortynia.gr/"
         name: "Open Data Gortynia"
         about: "CKAN Portal, containing the open data of the Geoportal"
-      - href: "http://www.publicspending.net/endpoint"
-        name: "Sparql endpoint"
-        about: "Find some example queries and execute yours"
+      - href: "http://gis.opendatagortynia.gr/"
+        name: "Gorinia"
+        about: "GIS Portal"
+
 
 - category: "Art and Culture"
   source:
