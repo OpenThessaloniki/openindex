@@ -12,18 +12,20 @@ layout: frontpage
 </div>
 
   {% for category in site.data.openindex %}
-  <div class="row" id= "{{ category.category }}">
+  <div class="row" >
+  <div  id= "{{ category.category }}">
   <h2>{{ category.category }}</h2>
     {% for source in category.source  %}
       {% capture rowIter %}{% cycle 1, 2, 3 %}{% endcapture %}
         <div class="col-lg-4">
           {% include widgets/resources.html source=source %}
         </div>
-        {% if '3' == rowIter %}
+        {% if '4' == rowIter %}
           </div>
           <div class="row">
         {% endif %}
     {% endfor %}
+  </div>
   </div>
   {% endfor %}
 
