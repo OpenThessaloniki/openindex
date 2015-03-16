@@ -6,7 +6,15 @@
       - href: "http://ckan.okfn.gr/"
         name: "Greek Open Data Hub"
         about: "Main site"
-
+    - source_name: "European Union Open Data Portal"
+      description: "The EU Open Data Portal is the single point of access to a growing range of data produced by the institutions and other bodies of the European Union."
+      links: 
+      - href: "https://open-data.europa.eu/en/data/dataset?q=Greece&op=&ext_boolean=all" 
+        name: "open-data.europa.eu"
+        about: "Data refering to Greece"
+      - href: "https://open-data.europa.eu/en/developerscorner" 
+        name: "The developer's corner"
+        about: "REST API access and SPARQL endpoint are proposed to developers."
 - category: "OpenGov"
   source:
     - source_name: "Diavgeia (The Transparency Program initiative / Cl@rity)"
