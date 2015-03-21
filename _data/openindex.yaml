@@ -1,11 +1,17 @@
 - category: "Data Hubs"
   source:
     - source_name: "Open Data Hub"
-      description: "contains various greek data"
+      description: "contains 142 datasets of various greek data"
       links:
       - href: "http://ckan.okfn.gr/"
         name: "Greek Open Data Hub"
-        about: "Main site"
+        about: "the CKAN of Open Knowledge Foundation Greece"
+    - source_name: "Data.gov.gr"
+      description: "contains 75 datasets with greek open data"
+      links:
+      - href: "http://data.gov.gr/"
+        name: "Data.gov.gr"
+        about: "the central catalog of public data which provides access to datasets of all public bodies of Greek government."
     - source_name: "European Union Open Data Portal"
       description: "The EU Open Data Portal is the single point of access to a growing range of data produced by the institutions and other bodies of the European Union."
       links: 
